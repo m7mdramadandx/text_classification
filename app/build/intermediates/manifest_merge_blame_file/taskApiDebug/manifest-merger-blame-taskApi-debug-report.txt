@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.examples.textclassification"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14
+15    <application
+15-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:5:5-22:19
+16        android:allowBackup="true"
+16-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:6:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.6.0] C:\Users\mohamed.abdelmawgoud\.gradle\caches\transforms-3\c17c12044588d967ffbca560ec130959\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:7:9-43
+20        android:label="@string/tfe_tc_app_name"
+20-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:8:9-48
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:10:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme.TextClassification" >
+24-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:11:9-59
+25        <activity
+25-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:12:9-21:20
+26            android:name="org.tensorflow.lite.examples.textclassification.MainActivity"
+26-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:13:13-41
+27            android:exported="true"
+27-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:14:13-36
+28            android:windowSoftInputMode="adjustResize" >
+28-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:15:13-55
+29            <intent-filter>
+29-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:16:13-20:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:17:17-69
+30-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:17:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:19:17-77
+32-->D:\androidProjects\examples-master\lite\examples\text_classification\android\app\src\main\AndroidManifest.xml:19:27-74
+33            </intent-filter>
+34        </activity>
+35    </application>
+36
+37</manifest>
